@@ -1,0 +1,51 @@
+{
+
+  "lettuce": {
+    "name": "Салат",
+    "optimal": {
+      "ph": { "min": 5.8, "max": 6.2, "criticalMin": 5.0, "criticalMax": 7.0 },
+      "ec": { "min": 1.0, "max": 1.8, "criticalMin": 0.8, "criticalMax": 2.2 },
+      "airTemperature": { "min": 18, "max": 22, "criticalMin": 10, "criticalMax": 28 },
+      "solutionTemperature": { "min": 18, "max": 20, "criticalMin": 15, "criticalMax": 25 },
+      "lightIntensity": { "min": 12000, "max": 16000, "criticalMin": 8000, "criticalMax": 20000 },
+      "co2Level": { "min": 800, "max": 1200, "criticalMin": 400, "criticalMax": 1500 },
+      "humidity": { "min": 60, "max": 70, "criticalMin": 40, "criticalMax": 85 },
+      "waterLevel": { "min": 70, "max": 100, "criticalMin": 50, "criticalMax": 100 },
+      "oxygenLevel": { "min": 5, "max": 8, "criticalMin": 3, "criticalMax": 10 }
+    },
+    "growthTime": { "optimal": 30, "max": 45 },
+    "maxYield": 500
+  },
+  "tomatoes": {
+    "name": "Томаты",
+    "optimal": {
+      "ph": { "min": 5.5, "max": 6.5, "criticalMin": 5.0, "criticalMax": 7.0 },
+      "ec": { "min": 2.0, "max": 3.5, "criticalMin": 1.5, "criticalMax": 4.0 },
+      "airTemperature": { "min": 22, "max": 26, "criticalMin": 18, "criticalMax": 30 },
+      "solutionTemperature": { "min": 20, "max": 24, "criticalMin": 15, "criticalMax": 28 },
+      "lightIntensity": { "min": 20000, "max": 30000, "criticalMin": 15000, "criticalMax": 35000 },
+      "co2Level": { "min": 1000, "max": 1500, "criticalMin": 800, "criticalMax": 2000 },
+      "humidity": { "min": 65, "max": 80, "criticalMin": 50, "criticalMax": 90 },
+      "waterLevel": { "min": 60, "max": 100, "criticalMin": 40, "criticalMax": 100 },
+      "oxygenLevel": { "min": 6, "max": 9, "criticalMin": 4, "criticalMax": 11 }
+    },
+    "growthTime": { "optimal": 60, "max": 90 },
+    "maxYield": 3000
+  },
+  "basil": {
+    "name": "Базилик",
+    "optimal": {
+      "ph": { "min": 5.5, "max": 6.5, "criticalMin": 5.0, "criticalMax": 7.0 },
+      "ec": { "min": 1.0, "max": 1.6, "criticalMin": 0.8, "criticalMax": 2.0 },
+      "airTemperature": { "min": 20, "max": 25, "criticalMin": 15, "criticalMax": 30 },
+      "solutionTemperature": { "min": 18, "max": 22, "criticalMin": 15, "criticalMax": 26 },
+      "lightIntensity": { "min": 12000, "max": 16000, "criticalMin": 8000, "criticalMax": 20000 },
+      "co2Level": { "min": 800, "max": 1200, "criticalMin": 400, "criticalMax": 1500 },
+      "humidity": { "min": 60, "max": 70, "criticalMin": 50, "criticalMax": 85 },
+      "waterLevel": { "min": 60, "max": 100, "criticalMin": 40, "criticalMax": 100 },
+      "oxygenLevel": { "min": 5, "max": 8, "criticalMin": 3, "criticalMax": 10 }
+    },
+    "growthTime": { "optimal": 25, "max": 35 },
+    "maxYield": 300
+  }
+}

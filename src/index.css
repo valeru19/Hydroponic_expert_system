@@ -1,0 +1,15 @@
+/**
+ * Основные стили приложения с Tailwind CSS
+ * 
+ * Этот файл импортирует базовые стили Tailwind CSS:
+ * - @tailwind base: сброс стилей и базовые стили
+ * - @tailwind components: компонентные стили
+ * - @tailwind utilities: утилитарные классы
+ * 
+ * Tailwind CSS используется для быстрой стилизации компонентов
+ * и обеспечения консистентного дизайна.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
